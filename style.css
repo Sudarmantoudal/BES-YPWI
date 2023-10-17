@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px; /* Atur margin atas (jarak) h2 */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px; /* Atur margin bawah (jarak) h1 */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.btn-calculate {
+  width: 100%;
+  padding: 10px;
+  background-color: #3e9eac;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 15px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+    margin-right: 10px; /* Atur jarak horizontal antara dua logo */
+}
+
+.logo img {
+  width: 180px;
+  height: auto;
+}
+
+.contact-us {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact-us h2 {
+  font-size: 20px;
+}
+
+.contact-us p {
+  margin-bottom: 10px;
+}
+
+.whatsapp-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #25D366;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}

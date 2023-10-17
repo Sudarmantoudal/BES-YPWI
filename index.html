@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <title>Simulasi Kredit Syariah (YPWI)</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <a href="https://freeimage.host/"><img src="https://iili.io/H6JrifR.png" alt="H6JrifR.png" border="0" /></a>
+      <a href="https://freeimage.host/i/JF0a9x1"><img src="https://iili.io/JF0a9x1.md.png" alt="JF0a9x1.md.png" border="0"></a>
+    </div>
+    <h1>Simulasi Kredit Syariah</h1>
+	<h2>Pegawai YPWI</h2>
+    <div class="form-group">
+      <label for="nama-barang">Nama atau Jenis Barang</label>
+      <input type="text" id="nama-barang">
+    </div>
+    <div class="form-group">
+      <label for="harga-barang">Harga Barang</label>
+      <input type="text" id="harga-barang" onkeyup="formatRupiah(this)">
+    </div>
+    <div class="form-group">
+      <label for="uang-muka">Uang Muka</label>
+      <input type="text" id="uang-muka" onkeyup="formatRupiah(this)">
+    </div>
+    <div class="form-group">
+      <label for="tenor">Tenor (bulan)</label>
+      <input type="number" id="tenor" max="36">
+    </div>
+    <button class="btn-calculate" onclick="calculate()">Hitung</button>
+    <div id="result" class="result"></div>
+    <div class="contact-us">
+      <h2>Hubungi Kami</h2>
+      <p>Jika Anda memiliki pertanyaan, silakan hubungi kami melalui WhatsApp:</p>
+      <a href="javascript:void(0);" onclick="sendMessageOnWhatsApp()" class="whatsapp-link">Hubungi via WhatsApp</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
